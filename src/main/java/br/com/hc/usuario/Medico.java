@@ -1,6 +1,6 @@
 package br.com.hc.usuario;
 
-import br.com.hc.usuario.Paciente;
+
 
 public class Medico {
     private String crm;

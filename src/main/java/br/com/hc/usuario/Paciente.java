@@ -1,5 +1,7 @@
 package br.com.hc.usuario;
 
+
+
 public class Paciente {
 
         private String nome;
