@@ -1,7 +1,4 @@
-package br.com.hc.atendimento;
-
-import br.com.hc.usuario.Paciente;
-import br.com.hc.usuario.Medico;
+package br.com.hc.model.atendimento;
 
 public class Exame {
     private String resultadosexame;

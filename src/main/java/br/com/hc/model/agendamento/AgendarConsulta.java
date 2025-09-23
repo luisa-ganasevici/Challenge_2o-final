@@ -1,4 +1,4 @@
-package br.com.hc.agendamento;
+package br.com.hc.model.agendamento;
 
 
 

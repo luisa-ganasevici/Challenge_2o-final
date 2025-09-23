@@ -1,7 +1,4 @@
-package br.com.hc.atendimento;
-
-import br.com.hc.usuario.Paciente;
-
+package br.com.hc.model.atendimento;
 
 
 public class Triagem {

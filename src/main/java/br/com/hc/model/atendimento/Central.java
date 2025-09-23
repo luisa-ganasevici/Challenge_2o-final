@@ -1,4 +1,4 @@
-package br.com.hc.atendimento;
+package br.com.hc.model.atendimento;
 
 
 

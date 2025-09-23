@@ -1,4 +1,4 @@
-package br.com.hc.usuario;
+package br.com.hc.model.usuario;
 
 public class LoginSenha {
 

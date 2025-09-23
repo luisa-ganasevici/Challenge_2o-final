@@ -1,17 +1,18 @@
 package br.com.hc.principal;
 
-import br.com.hc.agendamento.AgendarConsulta;
-import br.com.hc.atendimento.Central;
-import br.com.hc.usuario.Paciente;
-import br.com.hc.usuario.Medico;
-import br.com.hc.usuario.LoginSenha;
+import br.com.hc.model.agendamento.AgendarConsulta;
+import br.com.hc.model.atendimento.Central;
+import br.com.hc.model.usuario.Paciente;
+import br.com.hc.model.usuario.Medico;
+import br.com.hc.model.usuario.LoginSenha;
 import br.com.hc.util.FAQ;
+import br.com.hc.dao.PacienteDao;
 
 import java.util.Scanner;
 
-import br.com.hc.usuario.ServicoPaciente;
-import br.com.hc.atendimento.Exame;
-import br.com.hc.atendimento.Triagem;
+import br.com.hc.model.usuario.ServicoPaciente;
+import br.com.hc.model.atendimento.Exame;
+import br.com.hc.model.atendimento.Triagem;
 
 public class Principal {
 
