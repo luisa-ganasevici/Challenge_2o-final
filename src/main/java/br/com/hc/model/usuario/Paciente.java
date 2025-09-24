@@ -94,5 +94,19 @@ public class Paciente {
 
             return cpf != null && cpf.matches("\\d{11}");
         }
+
+  //1a regra de negocio
+    public boolean isMaiorIdade() {
+        return idade >= 18;
     }
+
+   //2a rgr de negocio :D
+
+    public boolean validarCpf() {
+        return cpf != null && cpf.matches("\\d{11}");
+    }
+
+
+
+}
 

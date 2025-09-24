@@ -4,7 +4,8 @@ package br.com.hc.model.atendimento;
 public class Triagem {
     private String sintomasPaciente;
     private String diasSentidos;
-
+    private String sintomas;
+    private int nivelUrgencia;
 
     public Triagem(String sintomasPaciente, String diasSentidos) {
         this.sintomasPaciente = sintomasPaciente;
@@ -25,5 +26,17 @@ public class Triagem {
 
     public void setDiasSentidos(String diasSentidos) {
         this.diasSentidos = diasSentidos;
+    }
+
+
+    //rn 3
+    public String definirPrioridade() {
+        if (nivelUrgencia <= 2) {
+            return "Emergência";
+        } else if (nivelUrgencia == 3) {
+            return "Urgência media";
+        } else {
+            return "Atendimento comum";
+        }
     }
 }

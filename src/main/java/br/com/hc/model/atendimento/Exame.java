@@ -3,6 +3,8 @@ package br.com.hc.model.atendimento;
 public class Exame {
     private String resultadosexame;
     private String fazerexame;
+    private String tipo;
+
 
     public Exame(String resultadosexame, String fazerexame) {
         this.resultadosexame = resultadosexame;
@@ -24,4 +26,15 @@ public class Exame {
     public void setFazerexame(String fazerexame) {
         this.fazerexame = fazerexame;
     }
+
+
+    //rn 4
+    public boolean ExameDeRisco() {
+        return tipo != null && (
+                tipo.equalsIgnoreCase("Ressonancia") ||
+                        tipo.equalsIgnoreCase("Tomografia") ||
+                        tipo.equalsIgnoreCase("Cirurgia")
+        );
+    }
+
 }
