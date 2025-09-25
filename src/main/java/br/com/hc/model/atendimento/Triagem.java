@@ -1,6 +1,5 @@
 package br.com.hc.model.atendimento;
 
-
 public class Triagem {
     private String sintomasPaciente;
     private String diasSentidos;
@@ -28,6 +27,13 @@ public class Triagem {
         this.diasSentidos = diasSentidos;
     }
 
+    public void setNivelUrgencia(int nivelUrgencia) {
+        this.nivelUrgencia = nivelUrgencia;
+    }
+
+    public int getNivelUrgencia() {
+        return nivelUrgencia;
+    }
 
     //rn 3
     public String definirPrioridade() {

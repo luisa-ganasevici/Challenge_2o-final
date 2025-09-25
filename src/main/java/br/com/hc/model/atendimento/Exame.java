@@ -5,7 +5,6 @@ public class Exame {
     private String fazerexame;
     private String tipo;
 
-
     public Exame(String resultadosexame, String fazerexame) {
         this.resultadosexame = resultadosexame;
         this.fazerexame = fazerexame;
@@ -28,6 +27,14 @@ public class Exame {
     }
 
 
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    public String getTipo() {
+        return tipo;
+    }
+
     //rn 4
     public boolean ExameDeRisco() {
         return tipo != null && (
@@ -36,5 +43,4 @@ public class Exame {
                         tipo.equalsIgnoreCase("Cirurgia")
         );
     }
-
 }
