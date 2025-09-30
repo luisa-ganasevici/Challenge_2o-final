@@ -16,8 +16,8 @@ public class ConexaoBanco {
             Class.forName("oracle.jdbc.driver.OracleDriver");
             conn = DriverManager.getConnection(
                     "jdbc:oracle:thin:@oracle.fiap.com.br:1521:orcl",
-                    "rm563463",
-                    "230107");
+                    "rm563458",
+                    "230204");
 
             System.out.println("Conectado");
 
@@ -43,8 +43,8 @@ public class ConexaoBanco {
             Class.forName("oracle.jdbc.driver.OracleDriver");
             Connection conn = DriverManager.getConnection(
                     "jdbc:oracle:thin:@oracle.fiap.com.br:1521:orcl",
-                    "rm563463",
-                    "230107");
+                    "rm566516",
+                    "210806");
             return conn;
         } catch (ClassNotFoundException | SQLException e) {
             throw new RuntimeException("Erro ao conectar: " + e.getMessage());
